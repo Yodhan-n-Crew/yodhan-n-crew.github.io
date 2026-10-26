@@ -5,9 +5,9 @@ body {
 }
 
 .taskbar {
-    position: sticky;
+    position: fixed;
     height: 40px;
-    top: 0;
+    bottom: 0;
     padding: 10px 16px;
     background: #647788;
 }
