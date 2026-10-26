@@ -1,5 +1,11 @@
-.os {
-    background-image: url("/assets/bg.jpg") center / cover no-repeat fixed;
+body {
+    background-image: url("/assets/bg.jpg");
+
+    height: 100vh;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0;
     padding: 0;
 }
