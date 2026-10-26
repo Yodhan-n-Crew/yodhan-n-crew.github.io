@@ -10,6 +10,10 @@ body {
     padding: 0;
 }
 
+p, h1{
+    color: #ffffff;
+}
+
 .taskbar {
     position: fixed;
     width: 100vw;
