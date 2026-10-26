@@ -1,5 +1,5 @@
-body {
-    background-image: url("/assets/bg.jpg");
+.os {
+    background-image: url("/assets/bg.jpg") center / cover no-repeat fixed;
     margin: 0;
     padding: 0;
 }
