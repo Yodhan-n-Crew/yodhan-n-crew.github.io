@@ -7,16 +7,26 @@
     <title>Yodhan n' Crew</title>
     <link rel="stylesheet" href="/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/window.gif">
-    <script src="/assets/select.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@4.0.0/dist/jquery.min.js"></script>
+    <script>
+         $(document).ready(function(){
+            $("#menuClick").click(function(e){
+                e.preventDefault();
+                $("#windowMenu").toggle();
+            });
+        });
+    </script>
 </head>
 
 <body>
     <div class="os">
-        <h1>Welcome!</h1>
-        <p>Hi, welcome to my website. It got a pretty big overhaul since before. It includes a chat and games page. Plus, there's even a cloaker for you to use where the URL can't be seen by anyone.</p>
+        <div id="windowMenu">
+            <a href="/games">Games</a>
+            <a href="/chat">Chat</a>
+        </div>
     </div>
     <div class="taskbar">
-        <a href="#" onclick="menuList();" id="menu"><img src="/assets/person.png" id="menuImage" /></a>
+        <a href="#" id="menuClick"><img src="/assets/person.png" id="menuImage" /></a>
     </div>
 </body>
 
