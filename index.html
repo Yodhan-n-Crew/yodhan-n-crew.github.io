@@ -31,22 +31,34 @@
             $(win.document.body).append($iframe);
         }
         function openChat() {
+            $("#1").remove();
+
             let $iframe = $("<iframe>", {
-                src: "/chat", css: {
+                src: "/chat", 
+                id: "1",
+                css: {
                     width: "400px",
                     height: "300px",
-                    border: "black soild 10px"
+                    border: "black soild 10px",
+                    margin: "auto",
+                    display: "block"
                 }
             });
 
             $(document.body).append($iframe);
         }
         function openGames() {
+            $("#1").remove();
+
             let $iframe = $("<iframe>", {
-                src: "/games", css: {
+                src: "/games", 
+                id: "1",
+                css: {
                     width: "400px",
                     height: "300px",
-                    border: "black soild 10px"
+                    border: "10px solid black",
+                    margin: "auto",
+                    display: "block"
                 }
             });
 

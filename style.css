@@ -10,6 +10,10 @@ body {
     padding: 0;
 }
 
+.os {
+    display: flex;
+}
+
 .main {
     background-color: #5c6f81;
 }
