@@ -2,6 +2,7 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0;
+    background-color: #5c6f81;
 }
 
 .os {
@@ -11,11 +12,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-}
-
-.main {
-    background-color: #5c6f81;
-    height: 100%;
 }
 
 p, h1, h2, h3, h4, h5, h6, a {
